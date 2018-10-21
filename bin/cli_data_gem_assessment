@@ -1,0 +1,5 @@
+#!usr/bin/env ruby
+
+#require './lib/cli_data_gem_assessment'
+
+#CliDataGemAssessment::Cli.run

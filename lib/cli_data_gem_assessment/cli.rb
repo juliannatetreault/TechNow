@@ -1,0 +1,3 @@
+class CliDataGemAssessment::Cli 
+  
+end
