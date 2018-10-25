@@ -1,5 +1,5 @@
-#!usr/bin/env ruby
+#!/usr/bin/env ruby
 
-#require './lib/cli_data_gem_assessment'
+require_relative '../lib/enviroment'
 
-#CliDataGemAssessment::Cli.run
+CliDataGemAssessment::Cli.new.run
