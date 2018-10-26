@@ -24,9 +24,9 @@ class CliDataGemAssessment::Cli
 end
 
   def input
-    input = gets.chomp.to_i
-    news = CliDataGemAssessment::TechNews.all[1..10][input -1]
-    if news.class == CliDataGemAssessment::TechNews && input > 0 
+    input = gets.chomp#.to_i
+    news = CliDataGemAssessment::TechNews.all[1..10][input.to_i - 1]
+    if news.class == CliDataGemAssessment::TechNews && input.to_i > 0 
       puts "--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--"
       puts "                          #{news.headline.colorize(:light_blue)}                                              "
       puts "--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--.--"
@@ -38,6 +38,8 @@ end
       puts "                                      Would you like to read more?                                             ".colorize(:light_blue)
       puts "                         Type 'menu' for the main menu, or 'exit' to exit the program.                         "
       final_selection
+    elsif input == "exit" 
+      goodbye
     else
       puts "--> Invalid selection. Please try again using a valid number. <--".colorize(:magenta)
       menu
@@ -54,11 +56,14 @@ end
     input = gets.chomp.downcase
     if input == "menu"
       menu
-      list_news
-   elsif input == "exit"
+      #list_news
+   elsif input == "exit" 
       goodbye
+   else 
+    puts "--> Invalid selection. Please try again using a valid selection. <--".colorize(:magenta)
+    menu
+    end
   end
-end
 
 end
 
