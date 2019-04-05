@@ -1,8 +1,6 @@
-# CliDataGemAssessment
+# TechNow
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cli_data_gem_assessment`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+TechNow is a Ruby gem allows users to select the latest tech news from the New York Times' Technology section using their CLI. Scraping the NYT's Technology section is made possible with the use of NokoGiri and Open::URI. Once a user has installed TechNow onto their machine, they may browse 10 of newest technology titles from the comfort of their CLI. From there, a user can read the story of their choice--if the article is particulary interesting, a user can click on the story's link in the CLI to read the full artile on the NYT's Technology page.
 
 ## Installation
 
@@ -21,8 +19,7 @@ Or install it yourself as:
     $ gem install cli_data_gem_assessment
 
 ## Usage
-
-TODO: Write usage instructions here
+See use cases above under the TechNow heading. As an aside, to exit the application from their CLI, a user can type "exit".
 
 ## Development
 
@@ -32,7 +29,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/juliannatetreault/cli_data_gem_assessment. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/juliannatetreault/TechNow. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +37,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the CliDataGemAssessment project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/juliannatetreault/cli_data_gem_assessment/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the TechNow project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/juliannatetreault/cli_data_gem_assessment/blob/master/CODE_OF_CONDUCT.md).
