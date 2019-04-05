@@ -37,4 +37,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the TechNow project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/juliannatetreault/cli_data_gem_assessment/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the TechNow project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/juliannatetreault/TechNow/blob/master/CODE_OF_CONDUCT.md).
